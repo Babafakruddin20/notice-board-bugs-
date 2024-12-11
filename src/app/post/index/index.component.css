@@ -1,0 +1,91 @@
+/* Fix the navbar at the top */
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #f8f9fa;  /* Light background for the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for a lifted effect */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Style the navbar content */
+  .navbar-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Center the greeting text */
+  .greeting-container {
+    flex: 1;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Style the timer, right-aligned */
+  .timer-container {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Add padding-top to body to ensure content doesn't hide behind the fixed navbar */
+  body {
+    padding-top: 80px; /* Adjust this padding based on the navbar height */
+  }
+  
+  /* Style for Create New Post button */
+  .btn-success {
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Ensure the container has proper spacing and is not hidden behind navbar */
+  .container {
+    margin-top: 20px;  /* Adds space between navbar and table */
+  }
+  
+  /* Styling the table for better readability */
+  .table {
+    width: 100%;
+    margin-top: 20px;  /* Adds space between button and table */
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Ensure buttons in table rows have proper spacing */
+  .table .btn {
+    margin-right: 5px;
+  }
+  
+  /* Highlight table row on hover (similar to Gmail) */
+  .table tbody tr:hover {
+    background-color:aqua; /* Light gray background on hover */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  

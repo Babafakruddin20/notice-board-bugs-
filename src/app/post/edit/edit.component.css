@@ -1,0 +1,26 @@
+h1{
+    font-weight: bolder;
+    color: blue;
+    cursor: pointer;
+}
+
+label{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    border-radius: 20px;
+    border: 5px solid green;
+}
+
+button{
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+}
+#body{
+    margin-top: 20px;
+}
